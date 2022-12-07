@@ -1,0 +1,34 @@
+{
+  "dias": [
+    {
+      "id": "1",
+      "valor": "segunda-feira",
+      "rotulo": "Segunda-Feira"
+    },
+    {
+      "id": "2",
+      "valor": "terca-feira",
+      "rotulo": "Terça-Feira"
+    },
+    {
+      "id": "3",
+      "valor": "quarta-feira",
+      "rotulo": "Quarta-Feira"
+    },
+    {
+      "id": "4",
+      "valor": "quinta-feira",
+      "rotulo": "Quinta-Feira"
+    },
+    {
+      "id": "5",
+      "valor": "sexta-feira",
+      "rotulo": "Sexta-Feira"
+    },
+    {
+      "id": "6",
+      "valor": "sabado",
+      "rotulo": "Sábado"
+    }
+  ]
+}

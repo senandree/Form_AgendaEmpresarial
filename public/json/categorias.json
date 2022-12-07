@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "descricao": "Instalação"
+    },
+    {
+      "id": "2",
+      "descricao": "Manutenção"
+    },
+    {
+      "id": "3",
+      "descricao": "Vistoria"
+    },
+    {
+      "id": "4",
+      "descricao": "Consulta"
+    },
+    {
+      "id": "5",
+      "descricao": "Cancelamento"
+    }
+  ]
+}

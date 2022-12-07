@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+
+  justify-content: center;
+
+  /* 
+  margin-top: 0px;
+  margin-right: 5%;
+  margin-bottom: 0px;
+  margin-left: 5%; 
+  */
+
+  /* margin: 0 5% 0 5%; */
+  /* top right bottom left */
+
+  margin: 0 5%;
+  /* 0 : top e bottom */
+  /* 5% right e left */
+}
+
+/* Boxe Novo Item */
+
+.box {
+  display: flex;
+  padding: 20px;
+  background: rgb(67, 137, 184);
+  justify-content: space-between;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.box label {
+  font-size: .85em;
+  /* font-size: 0.85em; */
+}
+
+.novo-item-campo-input-select label {
+  display: block;
+}
+
+/* .novo-item-campo-input-select input,
+.novo-item-campo-input-select select {
+  } */
+
+.novo-item-campo-input-select,
+.novo-item-campo {
+  margin-bottom: 15px;
+}
+
+.novo-item-campo label {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.novo-item-campo label:hover {
+  background: grey;
+}
+
+#colunas-dias-turnos {
+  display: flex;
+}
+
+#colunas-dias-turnos .novo-item-campo:nth-child(2) {
+  margin-left: 30px;
+}
+
+#novo-item-btn-incluir {
+  cursor: pointer;
+  justify-content: center;
+}
+
+/* Boxe Lista Tarefas */
+
+.box {
+  justify-content: center;
+  border-style: outset;
+}
+.box{
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-around;
+}
+.box thead th {
+  background: rgb(194, 194, 194);
+  padding: 5px 10px;
+  font-size: .85em;
+}
+
+.box tbody tr:nth-child(even) {
+  background: #e1e1e1;
+}
+
+.box tbody td {
+  padding: 7px 10px;
+  background: linear-gradient(45deg, #2584bb, #aca1a100);
+}
+
+.box tbody td:last-of-type {
+  text-align: center;
+}
+
+.icone {
+  width: 10px;
+}
+
+.icone-alerta {
+  margin-left: 10px;
+}
+
+.box tfoot td {
+  background:rgb(194, 194, 194);
+  padding: 5px 10px;
+  text-align: right;
+  font-size: .85em;
+}
+
+/* Medias Queries */
+
+@media screen and (max-width: 500px) {
+
+  #container {
+    display: block;
+  }
+
+  #boxe-lista-tarefas {
+    margin-left: 0;
+  }
+  
+}
